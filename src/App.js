@@ -4,7 +4,7 @@ import ExpenseApp from "./components/ExpenseApp";
 import UserApp from "./components/UserApp";
 
 function App() {
-  const [practice, setPractice] = useState(0);
+  const [practice, setPractice] = useState(1);
   const practiceHandler = (page) => {
     setPractice(page);
   };
